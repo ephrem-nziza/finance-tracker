@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Validator Tests</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <main id="main">
+        <section>
+            <h1>Validator Tests</h1>
+            <p id="summary" role="status"></p>
+            <ul id="results"></ul>
+        </section>
+    </main>
+
+    <script type="module">
+        import {validateDescription, validateAmount, validateDate, validateCategory, hasDuplicateWords} from './scripts/validator.js';
+
+        let list = document.getElementById('summary');
+        let good = 0;
+        let bad = 0;
+
+        function test(name, got, wanted) {
+            let li = document.createElement('li');
+            if (got === wanted) {
+                li.textContent = "Pass -"+ name;
+                good = good + 1;
+            } else {
+                li.textContent = "Fail -"+ name;
+                bad = bad + 1;
+            }
+            list.appendChild(li);
+            
+            test("description ok", validateDescription("Lunch at cafeteria"), true);
+            test("description one letter", validateDescription("A"), true);
+            test("description space at start", validateDescription(" Lunch"), false);
+            test("description space at end", validateDescription("Lunch "), false);
+            test("description empty", validateDescription(""), false);
+
+            test("amount 12", validateAmount(12), true);
+            test("amount 12.50", validateAmount(12.50), true);
+            test("amount 9999.99", validateAmount(9999.99), true);
+            test("amount 12.505", validateAmount(12.505), false);
+            test("amount 007", validateAmount("007"), false);
+            test("amount abc", validateAmount("abc"), false);
+
+            test("date ok", validateDate("2026-10-09"), true);
+            test("date month 13", validateDate("2024-13-29"), false);
+            test("date day 32", validateDate("2026-02-32"), false);
+            test("date leap year", validateDate("2024-02-29"), true);
+
+            test("category ok", validateCategory("Food"), true);
+            test("category no zero", validateCategory("Invalid"), false);
+            test("category empty", validateCategory(""), false);
+            test("category case sensitive", validateCategory("food"), false);
+
+            test("duplicate words", hasDuplicateWords("This is a test test"), true);
+            test("no duplicate words", hasDuplicateWords("This is a test"), false);
+            test("duplicate words with punctuation", hasDuplicateWords("This is a test, test."), true);
+            test("duplicate words with different cases", hasDuplicateWords("This is a Test test"), true);
+
+            summary.textContent = good + " tests passed, " + bad + " tests failed.";
+        }
+    </script>
+</body>
+</html>
