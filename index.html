@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Finance Tracker</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header>
+        <h1>Student Finance Tracker</h1>
+        <button type="button" id="menu-button" class="menu-button" aria-expanded="false" aria-controls="main-nav" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#records">Records</a></li>
+                <li><a href="#form">Add</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a student finance tracker application that allows you to manage your expenses.</p>
+            <p>Github: <a href="https://github.com/ephrem-nziza">Ephrem Nziza</a></p>
+            <p>LinkedIn: <a href="mailto:e.nziza@alustudent.com">e.nziza@alustudent.com</a></p>
+        </section>
+
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <p>View your financial summary and recent transactions.</p>
+            <ul>
+                <li>Total Records: <span id="start-count">0</span></li>
+                <li>Total Spent: $<span id="start-total">0.00</span></li>
+                <li>Top Category: <span id="start-top">None</span></li>
+            </ul>
+            <p id="stat-converted"></p>
+            <h3>Last 7 Days</h3>
+            <div id="trend-chart"></div>
+            <p id="cap-message" role="status" aria-live="polite"></p>
+        </section>
+
+        <section id="records">
+            <h2>Records</h2>
+            <label for="search">Search (regex)</label>
+            <input type="text" id="search-input" name="search" placeholder="Search records">
+            <label for="case-toggle">
+                <input type="checkbox" id="case-toggle" checked>Ignore Case</label>
+                <p id = "count-message" role="status"></p>
+                <label for="sort-select">Sort by:</label>
+                <select id ="sort-select">
+                    <option value="date-desc">Date (newest first)</option>
+                    <option value="date-asc">Date (oldest first)</option>
+                    <option value="description-asc">Description (A-Z)</option>
+                    <option value="description-desc">Description (Z-A)</option>
+                    <option value="amount-desc">Amount (highest first)</option>
+                    <option value="amount-asc">Amount (lowest first)</option>
+                </select>
+
+                <table>
+                    <caption>All transactions</caption>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Amount</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="records-body"></tbody>
+                </table>
+                <p id="empty-message">No records found yet. Add your first record below!</p>
+            </section>
+
+            <section id="form">
+                <h2>Add or Edit a Transaction</h2>
+                <form id="record-form" novalidate>
+                    <label for="description">Description</label>
+                    <input type="text" id="description" name="description" aria-describedby="description-error">
+                    <span id="description-error" class="error"></span>
+
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" name="amount" aria-describedby="amount-error">
+                    <span id="amount-error" class="error"></span>
+
+                    <label for="category">Category</label>
+                    <select id="category" name="category" aria-describedby="category-error">
+                    <span id="category-error" class="error"></span>
+                    
+                    <label for="date">Date(YYYY-MM-DD)</label>
+                    <input type="date" id="date" name="date" aria-describedby="date-error">
+                    <span id="date-error" class="error"></span>
+
+                    <button type="submit">Save</button>
+                    <button type="button" id="cancel-button">Cancel</button>
+                    <p id="form-message" role="status"></p>
+                </form>
+        </section>
+
+        <section id="settings">
+            <h2>Settings</h2>
+            
+            <h3>Spending Cap</h3>
+            <label for="cap-input">Cap amount</label>
+            <input type="text" id="cap-input">
+
+            <h3>Currencies</h3>
+            <label for="base-currency">Base Currency (3 letters)</label>
+            <input type="text" id="base-currency">
+
+            <label for="cur2-code">Second Currency (3 letters)</label>
+            <input type="text" id="cur2-code"> Rate: how many of the second currency for 1 base</label>
+            <input type="text" id="cur2-rate">
+
+            <label for="cur3-code">Third Currency (3 letters)</label>
+            <input type="text" id="cur3-code"> Rate: how many of the third currency for 1 base</label>
+            <input type="text" id="cur3-rate">
+
+            <h3>Data</h3>
+            <button type="button" id="export-btn">Export JSON</button>
+            <label for ="import-file">Import JSON</label>
+            <input type="file" id="import-file" accept=".json">
+            <p id="settings-message" role="status"></p>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Student Finance Tracker. All rights reserved.</p>
+    </footer>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
