@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1120" viewBox="0 0 1280 1120" font-family="Arial, Helvetica, sans-serif">
+<title>Web Settings</title>
+<rect x="0" y="0" width="1280" height="1120" fill="#f2f2f2"/>
+<rect x="0" y="0" width="1280" height="86" fill="#217346"/>
+<rect x="0" y="0" width="1280" height="3" fill="#333"/>
+<text x="40" y="56" font-size="26" fill="#fff" font-weight="700">Student Finance Tracker</text>
+<text x="856" y="52" font-size="15" fill="#fff">About</text>
+<text x="932" y="52" font-size="15" fill="#fff">Dashboard</text>
+<text x="1034" y="52" font-size="15" fill="#fff">Records</text>
+<text x="1122" y="52" font-size="15" fill="#fff">Add</text>
+<text x="1185" y="52" font-size="15" fill="#fff">Settings</text>
+<rect x="165.5" y="110.5" width="949" height="863" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="165" y="110" width="950" height="4" fill="#217346"/>
+<text x="183" y="160" font-size="24" fill="#1b5e3c" font-weight="700">Settings</text>
+<text x="183" y="208" font-size="18" fill="#222" font-weight="700">Spending Cap</text>
+<text x="183" y="248" font-size="15" fill="#222" font-weight="700">Cap amount</text>
+<rect x="183.5" y="258.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="283.0" font-size="15" fill="#222">1000000</text>
+<text x="183" y="340" font-size="18" fill="#222" font-weight="700">Currencies</text>
+<text x="183" y="380" font-size="15" fill="#222" font-weight="700">Base Currency (3 letters)</text>
+<rect x="183.5" y="390.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="415.0" font-size="15" fill="#222">USD</text>
+<text x="183" y="463" font-size="15" fill="#222" font-weight="700">Second Currency (3 letters)</text>
+<rect x="183.5" y="473.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="498.0" font-size="15" fill="#222">EUR</text>
+<text x="183" y="546" font-size="15" fill="#222" font-weight="700">Rate: how many of the second currency for 1 base</text>
+<rect x="183.5" y="556.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="581.0" font-size="15" fill="#222">0.92</text>
+<text x="183" y="629" font-size="15" fill="#222" font-weight="700">Third Currency (3 letters)</text>
+<rect x="183.5" y="639.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="664.0" font-size="15" fill="#222">RWF</text>
+<text x="183" y="712" font-size="15" fill="#222" font-weight="700">Rate: how many of the third currency for 1 base</text>
+<rect x="183.5" y="722.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="747.0" font-size="15" fill="#222">1450</text>
+<text x="183" y="804" font-size="18" fill="#222" font-weight="700">Data</text>
+<rect x="183" y="822" width="129" height="38" fill="#217346"/>
+<text x="247.5" y="846.0" font-size="15" fill="#fff" text-anchor="middle">Export JSON</text>
+<text x="183" y="896" font-size="15" fill="#222" font-weight="700">Import JSON</text>
+<rect x="183.5" y="906.5" width="913" height="45" fill="#fff" stroke="#767676" stroke-width="1"/>
+<rect x="193.5" y="916.5" width="92" height="25" fill="#efefef" stroke="#767676" stroke-width="1"/>
+<text x="239" y="934" font-size="14" fill="#222" text-anchor="middle">Choose File</text>
+<text x="295" y="934" font-size="14" fill="#222">No file chosen</text>
+<rect x="0" y="1016" width="1280" height="104" fill="#e2efda"/>
+<text x="640" y="1072" font-size="15" fill="#222" text-anchor="middle">© 2026 Student Finance Tracker. All rights reserved.</text>
+</svg>

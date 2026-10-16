@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="990" viewBox="0 0 1280 990" font-family="Arial, Helvetica, sans-serif">
+<title>Web Home</title>
+<rect x="0" y="0" width="1280" height="990" fill="#f2f2f2"/>
+<rect x="0" y="0" width="1280" height="86" fill="#217346"/>
+<rect x="0" y="0" width="1280" height="3" fill="#333"/>
+<text x="40" y="56" font-size="26" fill="#fff" font-weight="700">Student Finance Tracker</text>
+<text x="856" y="52" font-size="15" fill="#fff">About</text>
+<text x="932" y="52" font-size="15" fill="#fff">Dashboard</text>
+<text x="1034" y="52" font-size="15" fill="#fff">Records</text>
+<text x="1122" y="52" font-size="15" fill="#fff">Add</text>
+<text x="1185" y="52" font-size="15" fill="#fff">Settings</text>
+<rect x="165.5" y="110.5" width="949" height="222" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="165" y="110" width="950" height="4" fill="#217346"/>
+<text x="183" y="160" font-size="24" fill="#1b5e3c" font-weight="700">About</text>
+<text x="183" y="209" font-size="15" fill="#222">This is a student finance tracker application that allows you to manage your expenses.</text>
+<text x="183" y="250" font-size="15" fill="#222">Github: <tspan fill="#0066cc" text-decoration="underline">Ephrem Nziza</tspan></text>
+<text x="183" y="292" font-size="15" fill="#222">LinkedIn: <tspan fill="#0066cc" text-decoration="underline">e.nziza@alustudent.com</tspan></text>
+<rect x="165.5" y="352.5" width="949" height="586" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="165" y="352" width="950" height="4" fill="#217346"/>
+<text x="183" y="402" font-size="24" fill="#1b5e3c" font-weight="700">Dashboard</text>
+<text x="183" y="451" font-size="15" fill="#222">View your financial summary and recent transactions.</text>
+<circle cx="207" cy="488.0" r="3" fill="#222"/>
+<text x="224" y="493.0" font-size="15" fill="#222">Total Records: 11</text>
+<circle cx="207" cy="513.5" r="3" fill="#222"/>
+<text x="224" y="518.5" font-size="15" fill="#222">Total Spent: $14375.74</text>
+<circle cx="207" cy="539.0" r="3" fill="#222"/>
+<text x="224" y="544.0" font-size="15" fill="#222">Top Category: Books</text>
+<text x="183" y="584" font-size="15" fill="#222">Total In USD: 14375.74. In EUR: 13225.68. In RWF: 20844823.00.</text>
+<text x="183" y="633" font-size="18" fill="#222" font-weight="700">Last 7 Days</text>
+<text x="183" y="678.0" font-size="15" fill="#222">10-10</text>
+<rect x="248" y="665.0" width="812" height="16" fill="#f2f2f2"/>
+<text x="1098" y="678.0" font-size="15" fill="#222" text-anchor="end">0.00</text>
+<text x="183" y="707.7" font-size="15" fill="#222">10-11</text>
+<rect x="248" y="694.7" width="812" height="16" fill="#f2f2f2"/>
+<rect x="248" y="694.7" width="804" height="16" fill="#217346"/>
+<text x="1098" y="707.7" font-size="15" fill="#222" text-anchor="end">20.00</text>
+<text x="183" y="737.4" font-size="15" fill="#222">10-12</text>
+<rect x="248" y="724.4" width="812" height="16" fill="#f2f2f2"/>
+<text x="1098" y="737.4" font-size="15" fill="#222" text-anchor="end">0.00</text>
+<text x="183" y="767.1" font-size="15" fill="#222">10-13</text>
+<rect x="248" y="754.1" width="812" height="16" fill="#f2f2f2"/>
+<text x="1098" y="767.1" font-size="15" fill="#222" text-anchor="end">0.00</text>
+<text x="183" y="796.8" font-size="15" fill="#222">10-14</text>
+<rect x="248" y="783.8" width="812" height="16" fill="#f2f2f2"/>
+<text x="1098" y="796.8" font-size="15" fill="#222" text-anchor="end">0.00</text>
+<text x="183" y="826.5" font-size="15" fill="#222">10-15</text>
+<rect x="248" y="813.5" width="812" height="16" fill="#f2f2f2"/>
+<text x="1098" y="826.5" font-size="15" fill="#222" text-anchor="end">0.00</text>
+<text x="183" y="856.2" font-size="15" fill="#222">10-16</text>
+<rect x="248" y="843.2" width="812" height="16" fill="#f2f2f2"/>
+<text x="1098" y="856.2" font-size="15" fill="#222" text-anchor="end">0.00</text>
+<text x="183" y="897" font-size="15" fill="#222">You have 985624.26 left of your 1000000.00 cap</text>
+</svg>

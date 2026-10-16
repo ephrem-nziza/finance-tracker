@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1200" viewBox="0 0 1280 1200" font-family="Arial, Helvetica, sans-serif">
+<title>Web Records</title>
+<rect x="0" y="0" width="1280" height="1200" fill="#f2f2f2"/>
+<rect x="0" y="0" width="1280" height="86" fill="#217346"/>
+<rect x="0" y="0" width="1280" height="3" fill="#333"/>
+<text x="40" y="56" font-size="26" fill="#fff" font-weight="700">Student Finance Tracker</text>
+<text x="856" y="52" font-size="15" fill="#fff">About</text>
+<text x="932" y="52" font-size="15" fill="#fff">Dashboard</text>
+<text x="1034" y="52" font-size="15" fill="#fff">Records</text>
+<text x="1122" y="52" font-size="15" fill="#fff">Add</text>
+<text x="1185" y="52" font-size="15" fill="#fff">Settings</text>
+<rect x="165.5" y="110.5" width="949" height="1046" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="165" y="110" width="950" height="4" fill="#217346"/>
+<text x="183" y="160" font-size="24" fill="#1b5e3c" font-weight="700">Records</text>
+<text x="183" y="208" font-size="15" fill="#222" font-weight="700">Search (regex)</text>
+<rect x="183.5" y="219.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="244.0" font-size="15" fill="#8a8a8a">Search records</text>
+<rect x="185" y="279" width="14" height="14" fill="#0a6ed1" rx="2"/>
+<path d="M188 286.5 l3 3 l5 -6" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="205" y="291" font-size="15" fill="#222" font-weight="700">Ignore Case</text>
+<text x="183" y="334" font-size="15" fill="#222" font-weight="700">Sort by:</text>
+<rect x="183.5" y="344.5" width="913" height="40" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="369.5" font-size="15" fill="#222">Date (newest first)</text>
+<path d="M1075 362.5 l5 5 l5 -5" fill="none" stroke="#222" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="183" y="415" font-size="15" fill="#222" font-weight="700">All transactions</text>
+<rect x="183.5" y="431.5" width="913" height="46" fill="#e2efda" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="431" width="1" height="47" fill="#dddddd"/>
+<rect x="564" y="431" width="1" height="47" fill="#dddddd"/>
+<rect x="730" y="431" width="1" height="47" fill="#dddddd"/>
+<rect x="843" y="431" width="1" height="47" fill="#dddddd"/>
+<text x="193" y="460" font-size="15" fill="#222" font-weight="700">Date</text>
+<text x="334" y="460" font-size="15" fill="#222" font-weight="700">Description</text>
+<text x="574" y="460" font-size="15" fill="#222" font-weight="700">Category</text>
+<text x="740" y="460" font-size="15" fill="#222" font-weight="700">Amount</text>
+<text x="853" y="460" font-size="15" fill="#222" font-weight="700">Actions</text>
+<rect x="183.5" y="478.5" width="913" height="72" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="478" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="478" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="478" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="478" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="520" font-size="15" fill="#222">2026-10-11</text>
+<text x="334" y="520" font-size="15" fill="#222">haircut</text>
+<text x="574" y="520" font-size="15" fill="#222">Self-Care</text>
+<text x="740" y="520" font-size="15" fill="#222">20.00</text>
+<rect x="853" y="495" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="519.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="495" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="519.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="183.5" y="551.5" width="913" height="72" fill="#f2f8ef" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="551" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="551" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="551" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="551" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="593" font-size="15" fill="#222">2026-10-09</text>
+<text x="334" y="593" font-size="15" fill="#222">Lunch at cafeteria</text>
+<text x="574" y="593" font-size="15" fill="#222">Food</text>
+<text x="740" y="593" font-size="15" fill="#222">12.50</text>
+<rect x="853" y="568" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="592.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="568" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="592.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="183.5" y="624.5" width="913" height="72" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="624" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="624" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="624" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="624" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="666" font-size="15" fill="#222">2026-09-28</text>
+<text x="334" y="666" font-size="15" fill="#222">Coffee with friends</text>
+<text x="574" y="666" font-size="15" fill="#222">Entertainment</text>
+<text x="740" y="666" font-size="15" fill="#222">8.75</text>
+<rect x="853" y="641" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="665.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="641" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="665.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="183.5" y="697.5" width="913" height="72" fill="#f2f8ef" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="697" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="697" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="697" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="697" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="739" font-size="15" fill="#222">2026-09-23</text>
+<text x="334" y="739" font-size="15" fill="#222">Chemistry textbook</text>
+<text x="574" y="739" font-size="15" fill="#222">Books</text>
+<text x="740" y="739" font-size="15" fill="#222">9999.99</text>
+<rect x="853" y="714" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="738.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="714" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="738.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="183.5" y="770.5" width="913" height="72" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="770" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="770" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="770" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="770" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="812" font-size="15" fill="#222">2026-09-20</text>
+<text x="334" y="812" font-size="15" fill="#222">Bus pass</text>
+<text x="574" y="812" font-size="15" fill="#222">Transport</text>
+<text x="740" y="812" font-size="15" fill="#222">55.00</text>
+<rect x="853" y="787" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="811.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="787" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="811.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="183.5" y="843.5" width="913" height="72" fill="#f2f8ef" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="843" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="843" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="843" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="843" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="885" font-size="15" fill="#222">2026-08-15</text>
+<text x="334" y="885" font-size="15" fill="#222">Tuition fee payment</text>
+<text x="574" y="885" font-size="15" fill="#222">Fees</text>
+<text x="740" y="885" font-size="15" fill="#222">3000.00</text>
+<rect x="853" y="860" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="884.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="860" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="884.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="183.5" y="916.5" width="913" height="72" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="916" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="916" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="916" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="916" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="958" font-size="15" fill="#222">2026-03-10</text>
+<text x="334" y="958" font-size="15" fill="#222">Snacks</text>
+<text x="574" y="958" font-size="15" fill="#222">Other</text>
+<text x="740" y="958" font-size="15" fill="#222">10.00</text>
+<rect x="853" y="933" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="957.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="933" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="957.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="183.5" y="989.5" width="913" height="72" fill="#f2f8ef" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="989" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="989" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="989" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="989" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="1031" font-size="15" fill="#222">2026-01-01</text>
+<text x="334" y="1031" font-size="15" fill="#222">Laptop repair</text>
+<text x="574" y="1031" font-size="15" fill="#222">Other</text>
+<text x="740" y="1031" font-size="15" fill="#222">1250.99</text>
+<rect x="853" y="1006" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="1030.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="1006" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="1030.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="183.5" y="1062.5" width="913" height="72" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="324" y="1062" width="1" height="73" fill="#dddddd"/>
+<rect x="564" y="1062" width="1" height="73" fill="#dddddd"/>
+<rect x="730" y="1062" width="1" height="73" fill="#dddddd"/>
+<rect x="843" y="1062" width="1" height="73" fill="#dddddd"/>
+<text x="193" y="1104" font-size="15" fill="#222">2024-02-29</text>
+<text x="334" y="1104" font-size="15" fill="#222">Leap day snack</text>
+<text x="574" y="1104" font-size="15" fill="#222">Food</text>
+<text x="740" y="1104" font-size="15" fill="#222">0.01</text>
+<rect x="853" y="1079" width="64" height="38" fill="#217346"/>
+<text x="885.0" y="1103.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="925" y="1079" width="82" height="38" fill="#217346"/>
+<text x="966.0" y="1103.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="Arial, Helvetica, sans-serif">
+<title>Web Add or Edit</title>
+<rect x="0" y="0" width="1280" height="640" fill="#f2f2f2"/>
+<rect x="0" y="0" width="1280" height="86" fill="#217346"/>
+<rect x="0" y="0" width="1280" height="3" fill="#333"/>
+<text x="40" y="56" font-size="26" fill="#fff" font-weight="700">Student Finance Tracker</text>
+<text x="856" y="52" font-size="15" fill="#fff">About</text>
+<text x="932" y="52" font-size="15" fill="#fff">Dashboard</text>
+<text x="1034" y="52" font-size="15" fill="#fff">Records</text>
+<text x="1122" y="52" font-size="15" fill="#fff">Add</text>
+<text x="1185" y="52" font-size="15" fill="#fff">Settings</text>
+<rect x="165.5" y="110.5" width="949" height="486" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="165" y="110" width="950" height="4" fill="#217346"/>
+<text x="183" y="160" font-size="24" fill="#1b5e3c" font-weight="700">Add or Edit a Transaction</text>
+<text x="183" y="208" font-size="15" fill="#222" font-weight="700">Description</text>
+<rect x="183.5" y="219.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="183" y="292" font-size="15" fill="#222" font-weight="700">Amount</text>
+<rect x="183.5" y="303.5" width="179" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="183" y="376" font-size="15" fill="#222" font-weight="700">Category</text>
+<rect x="183.5" y="387.5" width="913" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="412.0" font-size="15" fill="#222">Choose a category</text>
+<path d="M1075 405.0 l5 5 l5 -5" fill="none" stroke="#222" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="183" y="460" font-size="15" fill="#222" font-weight="700">Date(YYYY-MM-DD)</text>
+<rect x="183.5" y="471.5" width="179" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="193" y="496.0" font-size="14" fill="#444">dd/mm/yyyy</text>
+<rect x="337" y="484.0" width="14" height="14" fill="none" stroke="#222" stroke-width="1.4"/>
+<path d="M337 488.0 h14" fill="none" stroke="#222" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="183" y="535" width="72" height="38" fill="#217346"/>
+<text x="219.0" y="559.0" font-size="15" fill="#fff" text-anchor="middle">Save</text>
+<rect x="267" y="535" width="86" height="38" fill="#217346"/>
+<text x="310.0" y="559.0" font-size="15" fill="#fff" text-anchor="middle">Cancel</text>
+</svg>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1280" viewBox="0 0 390 1280" font-family="Arial, Helvetica, sans-serif">
+<title>Mobile Records</title>
+<rect x="0" y="0" width="390" height="1280" fill="#f2f2f2"/>
+<rect x="0" y="0" width="390" height="58" fill="#217346"/>
+<rect x="0" y="0" width="390" height="3" fill="#333"/>
+<text x="10" y="38" font-size="19" fill="#fff" font-weight="700">Student Finance Tracker</text>
+<rect x="338.5" y="10.5" width="43" height="37" fill="none" stroke="#fff" stroke-width="1"/>
+<path d="M349 23h22 M349 29h22 M349 35h22" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="10.5" y="68.5" width="369" height="1193" fill="#fff" stroke="#dddddd" stroke-width="1"/>
+<rect x="10" y="68" width="370" height="4" fill="#217346"/>
+<text x="26" y="114" font-size="23" fill="#1b5e3c" font-weight="700">Records</text>
+<text x="26" y="152" font-size="15" fill="#222" font-weight="700">Search (regex)</text>
+<rect x="26.5" y="162.5" width="337" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="36" y="187.0" font-size="15" fill="#8a8a8a">Search records</text>
+<rect x="28" y="227" width="14" height="14" fill="#0a6ed1" rx="2"/>
+<path d="M31 234.5 l3 3 l5 -6" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48" y="239" font-size="15" fill="#222" font-weight="700">Ignore Case</text>
+<text x="26" y="274" font-size="15" fill="#222" font-weight="700">Sort by:</text>
+<rect x="26.5" y="284.5" width="337" height="39" fill="#fff" stroke="#767676" stroke-width="1"/>
+<text x="36" y="309.0" font-size="15" fill="#222">Date (newest first)</text>
+<path d="M342 302.0 l5 5 l5 -5" fill="none" stroke="#222" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="26" y="358" font-size="15" fill="#222" font-weight="700">All transactions</text>
+<rect x="26.5" y="374.5" width="337" height="205" fill="#fff" stroke="#cccccc" stroke-width="1"/>
+<text x="38" y="406" font-size="15" fill="#222" font-weight="700">Date</text>
+<text x="352" y="406" font-size="15" fill="#222" text-anchor="end">2026-10-11</text>
+<text x="38" y="440" font-size="15" fill="#222" font-weight="700">Description</text>
+<text x="352" y="440" font-size="15" fill="#222" text-anchor="end">haircut</text>
+<text x="38" y="474" font-size="15" fill="#222" font-weight="700">Category</text>
+<text x="352" y="474" font-size="15" fill="#222" text-anchor="end">Self-Care</text>
+<text x="38" y="508" font-size="15" fill="#222" font-weight="700">Amount</text>
+<text x="352" y="508" font-size="15" fill="#222" text-anchor="end">20.00</text>
+<text x="38" y="550" font-size="15" fill="#222" font-weight="700">Actions</text>
+<rect x="196" y="526" width="64" height="38" fill="#217346"/>
+<text x="228.0" y="550.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="270" y="526" width="82" height="38" fill="#217346"/>
+<text x="311.0" y="550.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="26.5" y="596.5" width="337" height="205" fill="#fff" stroke="#cccccc" stroke-width="1"/>
+<text x="38" y="628" font-size="15" fill="#222" font-weight="700">Date</text>
+<text x="352" y="628" font-size="15" fill="#222" text-anchor="end">2026-10-09</text>
+<text x="38" y="662" font-size="15" fill="#222" font-weight="700">Description</text>
+<text x="352" y="662" font-size="15" fill="#222" text-anchor="end">Lunch at cafeteria</text>
+<text x="38" y="696" font-size="15" fill="#222" font-weight="700">Category</text>
+<text x="352" y="696" font-size="15" fill="#222" text-anchor="end">Food</text>
+<text x="38" y="730" font-size="15" fill="#222" font-weight="700">Amount</text>
+<text x="352" y="730" font-size="15" fill="#222" text-anchor="end">12.50</text>
+<text x="38" y="772" font-size="15" fill="#222" font-weight="700">Actions</text>
+<rect x="196" y="748" width="64" height="38" fill="#217346"/>
+<text x="228.0" y="772.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="270" y="748" width="82" height="38" fill="#217346"/>
+<text x="311.0" y="772.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="26.5" y="818.5" width="337" height="205" fill="#fff" stroke="#cccccc" stroke-width="1"/>
+<text x="38" y="850" font-size="15" fill="#222" font-weight="700">Date</text>
+<text x="352" y="850" font-size="15" fill="#222" text-anchor="end">2026-09-28</text>
+<text x="38" y="884" font-size="15" fill="#222" font-weight="700">Description</text>
+<text x="352" y="884" font-size="15" fill="#222" text-anchor="end">Coffee with friends</text>
+<text x="38" y="918" font-size="15" fill="#222" font-weight="700">Category</text>
+<text x="352" y="918" font-size="15" fill="#222" text-anchor="end">Entertainment</text>
+<text x="38" y="952" font-size="15" fill="#222" font-weight="700">Amount</text>
+<text x="352" y="952" font-size="15" fill="#222" text-anchor="end">8.75</text>
+<text x="38" y="994" font-size="15" fill="#222" font-weight="700">Actions</text>
+<rect x="196" y="970" width="64" height="38" fill="#217346"/>
+<text x="228.0" y="994.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="270" y="970" width="82" height="38" fill="#217346"/>
+<text x="311.0" y="994.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+<rect x="26.5" y="1040.5" width="337" height="205" fill="#fff" stroke="#cccccc" stroke-width="1"/>
+<text x="38" y="1072" font-size="15" fill="#222" font-weight="700">Date</text>
+<text x="352" y="1072" font-size="15" fill="#222" text-anchor="end">2026-09-23</text>
+<text x="38" y="1106" font-size="15" fill="#222" font-weight="700">Description</text>
+<text x="352" y="1106" font-size="15" fill="#222" text-anchor="end">Chemistry textbook</text>
+<text x="38" y="1140" font-size="15" fill="#222" font-weight="700">Category</text>
+<text x="352" y="1140" font-size="15" fill="#222" text-anchor="end">Books</text>
+<text x="38" y="1174" font-size="15" fill="#222" font-weight="700">Amount</text>
+<text x="352" y="1174" font-size="15" fill="#222" text-anchor="end">9999.99</text>
+<text x="38" y="1216" font-size="15" fill="#222" font-weight="700">Actions</text>
+<rect x="196" y="1192" width="64" height="38" fill="#217346"/>
+<text x="228.0" y="1216.0" font-size="15" fill="#fff" text-anchor="middle">Edit</text>
+<rect x="270" y="1192" width="82" height="38" fill="#217346"/>
+<text x="311.0" y="1216.0" font-size="15" fill="#fff" text-anchor="middle">Delete</text>
+</svg>
