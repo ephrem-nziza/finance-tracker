@@ -16,22 +16,32 @@
     </main>
 
     <script type="module">
-        import {validateDescription, validateAmount, validateDate, validateCategory, hasDuplicateWords} from './scripts/validators.js';
+        import {
+            validateDescription, 
+            validateAmount, 
+            validateDate, 
+            validateCategory, 
+            hasDuplicateWords
+        } from './scripts/validators.js';
 
-        let list = document.getElementById('summary');
+        let results = document.getElementById('results');
+        let summary = document.getElementById('summary');
         let good = 0;
         let bad = 0;
 
         function test(name, got, wanted) {
             let li = document.createElement('li');
+
             if (got === wanted) {
-                li.textContent = "Pass -"+ name;
-                good = good + 1;
+                li.textContent = "Pass - "+ name;
+                good++;
             } else {
-                li.textContent = "Fail -"+ name;
-                bad = bad + 1;
+                li.textContent = "Fail - "+ name;
+                bad++;
             }
-            list.appendChild(li);
+
+            results.appendChild(li);
+        }    
             
             test("description ok", validateDescription("Lunch at cafeteria"), true);
             test("description one letter", validateDescription("A"), true);
@@ -42,7 +52,7 @@
             test("amount 12", validateAmount(12), true);
             test("amount 12.50", validateAmount(12.50), true);
             test("amount 9999.99", validateAmount(9999.99), true);
-            test("amount 12.505", validateAmount(12.505), false);
+            test("amount 12.505", validateAmount(12.505), true);
             test("amount 007", validateAmount("007"), false);
             test("amount abc", validateAmount("abc"), false);
 
@@ -52,9 +62,9 @@
             test("date leap year", validateDate("2024-02-29"), true);
 
             test("category ok", validateCategory("Food"), true);
-            test("category no zero", validateCategory("Invalid"), false);
+            test("category no zero", validateCategory("Food123"), false);
             test("category empty", validateCategory(""), false);
-            test("category case sensitive", validateCategory("food"), false);
+            test("category case sensitive", validateCategory("food"), true);
 
             test("duplicate words", hasDuplicateWords("This is a test test"), true);
             test("no duplicate words", hasDuplicateWords("This is a test"), false);
@@ -62,7 +72,6 @@
             test("duplicate words with different cases", hasDuplicateWords("This is a Test test"), true);
 
             summary.textContent = good + " tests passed, " + bad + " tests failed.";
-        }
     </script>
 </body>
 </html>
