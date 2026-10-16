@@ -1,6 +1,6 @@
 function pad(number){
     if (number < 10){
-        return "0" + nummber;
+        return "0" + number;
     }
     return String(number);
 }
@@ -13,7 +13,7 @@ function dateText(daysAgo){
 
 function lastSevenDays(records){
     let days = [];
-    for (let i = 6; i > 0; i --){
+    for (let i = 6; i >= 0; i --){
         let date = dateText(i);
         let total = 0;
         for (let j = 0; j < records.length; j++){
@@ -81,7 +81,7 @@ function showCap(total, cap){
     let difference = Math.round((cap - total) * 100) / 100;
 
     if(difference >= 0){
-        message.textContent = "You have" + difference.toFixed(2) + "left of your" + cap.toFixed(2) + "cap";
+        message.textContent = "You have " + difference.toFixed(2) + " left of your " + cap.toFixed(2) + " cap";
         message.className = "";
         message.setAttribute("role", "status");
         message.setAttribute("aria-live", "polite");        

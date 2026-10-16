@@ -1,5 +1,5 @@
 import { getRecords, replaceRecords } from "./state.js";
-import { checkImport } from "validator.js";
+import { checkImport } from "./validators.js";
 
 export function setupImportExport(showRecords){
     let exportButton = document.getElementById("export-btn");
@@ -12,12 +12,12 @@ export function setupImportExport(showRecords){
     let url = URL.createObjectURL(blob);
 
     let link = document.createElement("a");
-    link:href = url;
+    link.href = url;
     link.download = "finance-records.json";
     link.click();
 
     URL.revokeObjectURL(url);
-    message.textContent = "Exported" + getRecords().length + "records";
+    message.textContent = "Exported "  +  getRecords().length  +  " records";
     });
 
     importFile.addEventListener("change", function(){
@@ -41,14 +41,14 @@ export function setupImportExport(showRecords){
 
             let problem = checkImport(data);
             if (problem !== ""){
-                message.textContent = "Import stopped" + problem;
+                message.textContent = "Import stopped "  +  problem;
                 importFile.value = "";
                 return;
             }
 
             replaceRecords(data);
             showRecords();
-            message.textContent = "Imported" + data.length + "records.";
+            message.textContent = "Imported "  +  data.length  +  " records.";
             importFile.value ="";
         };
         

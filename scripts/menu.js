@@ -2,10 +2,10 @@ export function setupMenu(){
     let button = document.getElementById("menu-button");
     let nav = document.getElementById("main-nav");
 
-    function closeMenu({
+    function closeMenu() {
         nav.classList.remove("open");
         button.setAttribute("aria-expanded", "false");
-    })
+    }
 
     button.addEventListener("click", function(){
         let isOpen = nav.classList.toggle("open");

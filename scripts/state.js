@@ -46,7 +46,7 @@ export function findRecord(id){
     return null;
 }
 
-export function updateRecord(id. description, amount, category, date){
+export function updateRecord(id, description, amount, category, date){
     let record = findRecord(id);
     if(record === null){
         return;
@@ -55,7 +55,7 @@ export function updateRecord(id. description, amount, category, date){
     record.amount = Number(amount);
     record.category = category;
     record.date = date;
-    record.updateAt = new Date().toISOString();
+    record.updatedAt = new Date().toISOString();
     saveRecords(records);
 }
 

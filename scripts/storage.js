@@ -7,7 +7,7 @@ export function loadRecords(){
         return[];
     }
     try{
-        returnJSON.parse(saved);
+        return JSON.parse(saved);
     } catch(error){
         return[];
     }
@@ -29,7 +29,7 @@ export function loadCap(){
     return number;
 }
 
-export function save Cap(cap){
+export function saveCap(cap){
     if(cap === null){
         localStorage.removeItem(CAP_KEY);
     }

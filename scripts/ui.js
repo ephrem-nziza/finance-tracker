@@ -17,14 +17,14 @@ export function renderRecords(records, re){
     emptyMessage.hidden = true;
 
     for (let i = 0; i < records.length; i++){
-        let record = record[i];
+        let record = records[i];
         let row = document.createElement("tr");
 
-        addCell(row, "Date", record.date. re);
+        addCell(row, "Date", record.date, re);
         addCell(row, "Description", record.description, re);
         addCell(row, "Category", record.category, re);
         addCell(row, "Amount", record.amount.toFixed(2), re);
-        addAction(row, record);
+        addActions(row, record);
 
         body.appendChild(row);
     }
@@ -38,12 +38,12 @@ function addCell(row, label, text, re){
 }
 
 function makeButton(text, action, record){
-    let button = document.createElement("td");
+    let button = document.createElement("button");
     button.type = "button";
     button.textContent = text;
     button.setAttribute("data-action", action);
     button.setAttribute("data-id", record.id);
-    button.setAttribute("aria-label", text + "" + record.description);
+    button.setAttribute("aria-label", text + " " + record.description);
     return button;
 }
 
@@ -61,10 +61,10 @@ function fillCell(cell, text, re){
         return;
     }
 
-    let safe = text.replace(/&/g, "&amp;").replace(/</g, "&gt;");
+    let safe = text.replace(/&/g, "&amp;").replace(/</g, "&lt;");
     let globalRe = new RegExp(re.source, re.flags+ "g");
 
     cell.innerHTML = safe.replace(globalRe, function(match){
-        return "<mark>" + match + "<mark>"
+        return "<mark>" + match + "</mark>"
     });
 }

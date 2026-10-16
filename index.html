@@ -40,9 +40,9 @@
             <h2>Dashboard</h2>
             <p>View your financial summary and recent transactions.</p>
             <ul>
-                <li>Total Records: <span id="start-count">0</span></li>
-                <li>Total Spent: $<span id="start-total">0.00</span></li>
-                <li>Top Category: <span id="start-top">None</span></li>
+                <li>Total Records: <span id="stat-count">0</span></li>
+                <li>Total Spent: $<span id="stat-total">0.00</span></li>
+                <li>Top Category: <span id="stat-top">None</span></li>
             </ul>
             <p id="stat-converted"></p>
             <h3>Last 7 Days</h3>
@@ -52,11 +52,11 @@
 
         <section id="records">
             <h2>Records</h2>
-            <label for="search">Search (regex)</label>
+            <label for="search-input">Search (regex)</label>
             <input type="text" id="search-input" name="search" placeholder="Search records">
             <label for="case-toggle">
                 <input type="checkbox" id="case-toggle" checked>Ignore Case</label>
-                <p id = "count-message" role="status"></p>
+                <p id = "search-message" role="status"></p>
                 <label for="sort-select">Sort by:</label>
                 <select id ="sort-select">
                     <option value="date-desc">Date (newest first)</option>
@@ -96,6 +96,12 @@
 
                     <label for="category">Category</label>
                     <select id="category" name="category" aria-describedby="category-error">
+                        <option value="">Choose a category</option>
+                        <option value="Food">Food</option>
+                        <option value="Transport">Transport</option>
+                        <option value="Education">Education</option>
+                        <option value="Other">Other</option>
+                    </select>    
                     <span id="category-error" class="error"></span>
                     
                     <label for="date">Date(YYYY-MM-DD)</label>
@@ -103,7 +109,7 @@
                     <span id="date-error" class="error"></span>
 
                     <button type="submit">Save</button>
-                    <button type="button" id="cancel-button">Cancel</button>
+                    <button type="button" id="cancel-edit">Cancel</button>
                     <p id="form-message" role="status"></p>
                 </form>
         </section>
@@ -120,11 +126,13 @@
             <input type="text" id="base-currency">
 
             <label for="cur2-code">Second Currency (3 letters)</label>
-            <input type="text" id="cur2-code"> Rate: how many of the second currency for 1 base</label>
+            <input type="text" id="cur2-code"> 
+            <label for="cur2-rate">Rate: how many of the second currency for 1 base</label>
             <input type="text" id="cur2-rate">
 
             <label for="cur3-code">Third Currency (3 letters)</label>
-            <input type="text" id="cur3-code"> Rate: how many of the third currency for 1 base</label>
+            <input type="text" id="cur3-code">
+            <label for="cur3-rate">Rate: how many of the third currency for 1 base</label>
             <input type="text" id="cur3-rate">
 
             <h3>Data</h3>

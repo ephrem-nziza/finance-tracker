@@ -9,9 +9,9 @@ export function showConverted(records){
         total = total + records[i].amount;
     }
 
-    let text = "Total in" + settings.base + ": " + total.toFixed(2) + ". ";
-    text = text + "In" + settings.cur2 + ": " + (total * settings.rate2).toFixed(2) + ". ";
-    text - text + "In" + settings.cur3 + ": " + (total * settings.rate3).toFixed(2) + ". ";
+    let text = "Total In " + settings.base + ": " + total.toFixed(2) + ". ";
+    text = text + "In " + settings.cur2 + ": " + (total * settings.rate2).toFixed(2) + ". ";
+    text = text + "In " + settings.cur3 + ": " + (total * settings.rate3).toFixed(2) + ". ";
 
     document.getElementById("stat-converted").textContent = text;
 }
@@ -32,19 +32,19 @@ export function setupSettings(showRecords){
     rate3Input.value = settings.rate3;
 
     function update(){
-        let base = baseInput.value.toUppercase();
-        let cur2 = cur2Input.value.toUppercase();
-        let cur3 = cur3Input.value.toUppercase();
+        let base = baseInput.value.toUpperCase();
+        let cur2 = cur2Input.value.toUpperCase();
+        let cur3 = cur3Input.value.toUpperCase();
 
         if (!validateCurrencyCode(base) || !validateCurrencyCode(cur2) || !validateCurrencyCode(cur3)){
             message.textContent = "Currency codes must be 3 letters, like USD.";
             return; 
         }
         if (!validateRate(rate2Input.value) || !validateRate(rate3Input.value)){
-            message.textContent = "Rates must be numbers like 0.94 0r 1450.";
+            message.textContent = "Rates must be numbers like 0.94 or 1450.";
             return;
         }
-        if (!validateNumber(rate2Input.value) <= 0 || Number(rate3Input.value) <= 0){
+        if (Number(rate2Input.value) <= 0 || Number(rate3Input.value) <= 0){
             message.textContent = "Rates must be more than 0.";
             return;
         }

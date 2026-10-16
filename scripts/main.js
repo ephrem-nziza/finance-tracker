@@ -1,12 +1,12 @@
 import {addRecord, getRecords, sortRecords, findRecord, updateRecord, deleteRecord} from "./state.js";
 import {setupMenu} from "./menu.js";
 import {setupSettings, showConverted} from "./settings.js";
-import {setupImportExport, setupUmportExport} from "./data.js";
+import {setupImportExport} from "./data.js";
 import {renderRecords} from "./ui.js";
 import {compileRegex, filterRecords} from "./search.js";
 import {renderStats} from "./stats.js";
 import {loadCap, saveCap} from "./storage.js";
-import {validateDescription, validateAmount, validateDate, validateCategory, hasDuplicateWords} from "./validators.js";
+import {validateDescription, validateAmount, validateDate, validateCategory,} from "./validators.js";
 
 let form = document.getElementById("record-form");
 let descriptionInput = document.getElementById("description");
@@ -27,7 +27,7 @@ let caseToggle = document.getElementById("case-toggle");
 let searchMessage = document.getElementById("search-message");
 let tableBody = document.getElementById("records-body");
 
-let caInput = document.getElementById("cap-input");
+let capInput = document.getElementById("cap-input");
 let settingsMessage = document.getElementById("settings-message");
 
 let editingId = null;
@@ -49,13 +49,13 @@ function showRecords(){
     if (searchInput.value !== ""&& re === null){
         searchMessage.textContent = "That pattern is not valid yet."; 
     }else if(re !== null){
-        searchMessage.textContent = sorted.length + "matching record(s).";
+        searchMessage.textContent = sorted.length +  "matching record(s).";
     }else{
         searchMessage.textContent = "";
     }
 }
 
-functionclearErrors(){
+function clearErrors(){
     descriptionError.textContent = "";
     amountError.textContent = "";
     categoryError.textContent = "";
@@ -86,7 +86,7 @@ capInput.addEventListener("input", function(){
 
 tableBody.addEventListener("click", function(event){
     let action  = event.target.getAttribute("data-action");
-    let id = event.target.getAttribute("data-action");
+    let id = event.target.getAttribute("data-id");
 
     if(action === "edit"){
         let record = findRecord(id);
@@ -106,7 +106,7 @@ tableBody.addEventListener("click", function(event){
         if (sure){
             deleteRecord(id);
             showRecords();
-            formMessage.textContent = "Delete" + record.description + ".";
+            formMessage.textContent = "Deleted" + record.description + ".";
             searchInput.focus();
         }
     }
@@ -155,10 +155,10 @@ form.addEventListener("submit", function(event){
 
     if (ok){
         if (editingId === null){
-            addRecord(descriptionInput.value, amountInput.value, categotyInput.value, dateInput.value);
+            addRecord(descriptionInput.value, amountInput.value, categoryInput.value, dateInput.value);
             formMessage.textContent = "Saved";
         }else{
-            updateRecord(editingId, descriptionInput.value, amountInput.value, categoryInput.value, dateInput);
+            updateRecord(editingId, descriptionInput.value, amountInput.value, categoryInput.value, dateInput.value);
             editingId = null;
             formMessage.textContent = "Changes Saved.";
         }
